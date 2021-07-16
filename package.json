@@ -1,5 +1,5 @@
 {
-  "name": "myportfolio",
+  "name": "hefni101",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -15,5 +15,7 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.2.0",
     "postcss": "^8.3.5"
-  }
+  },
+  "keywords": [],
+  "description": "my new portfolio"
 }

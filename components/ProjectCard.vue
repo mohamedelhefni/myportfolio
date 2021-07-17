@@ -1,5 +1,5 @@
 <template>
-  <div class="project hover:shadow-lg bgwhite text-gray-600 shadow rounded">
+  <div class="project hover:shadow-lg bg-white text-gray-600 shadow rounded">
     <NuxtLink :to="{ name: 'works-id', params: { id: project.id } }">
       <img
         :src="project.image"

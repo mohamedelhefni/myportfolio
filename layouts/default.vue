@@ -11,8 +11,8 @@
 export default {
   head: {
     bodyAttrs: {
-      class: "bg-gray-100"
-    }
-  }
-}
+      class: "bg-gray-100",
+    },
+  },
+};
 </script>

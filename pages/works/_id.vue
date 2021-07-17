@@ -11,8 +11,10 @@
         Back
       </NuxtLink>
     </div>
-    <div v-html="project.body" class="content my-3 p-4"></div>
-    <h3 class="text-3xl font-bold my-5">Related Projects</h3>
+    <div class="content">
+      <div v-html="project.body" class="my-3 p-4"></div>
+    </div>
+    <!-- <h3 class="text-3xl font-bold my-5">Related Projects</h3>
     <div
       class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-3 mx-auto"
     >
@@ -21,7 +23,7 @@
         :key="project.id"
         :project="project"
       />
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -41,8 +43,15 @@ export default {
 };
 </script>
 
-<style scoped>
+<style  >
 .content a {
   color: #4cacf6 !important;
+}
+.content figure {
+  margin: 20px auto;
+}
+
+.content p {
+  margin: 1em;
 }
 </style>

@@ -11,15 +11,16 @@
         mx-auto
 
       ">
-      <ProjectCard v-for="project in projects" :key="project.id" :project="project" />
+      <ProjectCard v-for="project in projects" :key="project.slug" :project="project" />
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  async asyncData() {
-    const  projects = await fetch("https://mohamedelhefni.000webhostapp.com/wp-json/portfolio/works/").then(res => res.json())
+  async asyncData({$content}) {
+    // const  projects = await fetch("https://mohamedelhefni.000webhostapp.com/wp-json/portfolio/works/").then(res => res.json())
+    const projects = await $content('works').only(['title', 'description', 'image', 'categories', 'slug']).sortBy('date', 'desc').fetch()
     return {projects}
   }
 }

@@ -12,10 +12,10 @@
       I'm Interested in competitive programming and Back-End Engineering.
     </p>
     <p class="uses text-2xl my-3 p-4 mt-5 text-gray-600">
-      I use <mark class="text-gray-600">Linux Mint xfce </mark> as my main OS
+      I use <mark class="text-gray-600">Zorin OS</mark> as my main OS
       and <mark class="text-gray-600">neovim</mark> as my main texteditor with
-      theme gruvbox or nord, <mark class="text-gray-600">fish</mark>  as my shell with eclm theme.<br />
-      I love to build web applications using <mark class="text-gray-600" >Vue</mark>, <mark class="text-gray-600">React</mark> and <mark class="text-gray-600">flask </mark>,
+      theme gruvbox or nord, <mark class="text-gray-600">zsh</mark>  as my shell with eclm theme.<br />
+      I love to build web applications using <mark class="text-gray-600" >Vue</mark>, <mark class="text-gray-600">React</mark>, <mark class="text-gray-600">Node</mark> and <mark class="text-gray-600">flask </mark>,
       most  of automation scripts I write  using <mark class="text-gray-600">Python</mark> or <mark  class="text-gray-600"> Bash </mark>
     </p>
   </div>

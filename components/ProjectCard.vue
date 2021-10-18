@@ -1,6 +1,6 @@
 <template>
   <div class="project hover:shadow-lg bg-white text-gray-600 shadow rounded">
-    <NuxtLink :to="{ name: 'works-id', params: { id: project.id } }">
+    <NuxtLink :to="{ name: 'works-slug', params: { slug: project.slug } }">
       <img
         :src="project.image"
         class="w-full rounded max-h-52 h-48 object-cover"
@@ -10,16 +10,16 @@
         <h3 class="font-bold text-xl text-gray-700">
           {{ project.title }}
         </h3>
-        <p class="text-sm text-gray-500">{{ project.excerpt }}</p>
+        <p class="text-sm text-gray-500">{{ project.description }}</p>
       </div>
       <div class="categories flex flex-wrap justify-start items-center py-2">
         <div
           class="category shadow bg-gray-200 roundedl px-3 py-1 text-sm font-semibold text-gray-700 mx-1 my-1"
           v-for="category in project.categories"
-          :key="category.id"
-          v-bind="{ class: category.name }"
+          :key="category"
+          v-bind="{ class: category }"
         >
-          {{ category.name }}
+          {{ category }}
         </div>
       </div>
     </NuxtLink>

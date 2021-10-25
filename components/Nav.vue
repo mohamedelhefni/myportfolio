@@ -1,7 +1,7 @@
 <template>
-  <div class="nav p-5 bg-white flex items-center justify-between">
+  <div class="nav p-5 bg-white flex flex-wrap items-center justify-between">
     <div class="routes">
-      <ul class="flex items-center">
+      <ul class="flex flex-wrap items-center">
         <li class="p-3 mx-2 font-bold text-xl hidden lg:block md:block">
           <NuxtLink to="/">Hefni 101</NuxtLink>
         </li>
@@ -17,6 +17,13 @@
             to="/projects"
             class="font-bold text-large text-gray-500 hover:text-gray-700"
             >Projects</NuxtLink
+          >
+        </li>
+        <li class="p-3 mx-2">
+          <NuxtLink
+            to="/tools"
+            class="font-bold text-large text-gray-500 hover:text-gray-700"
+            >Tools</NuxtLink
           >
         </li>
       </ul>

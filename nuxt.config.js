@@ -1,3 +1,5 @@
+import getRoutes from "./utils/getRoutes";
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -45,7 +47,14 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxt/content'],
+  modules: ["@nuxt/content", "@nuxtjs/sitemap"],
+  //site map
+  sitemap: {
+    hostname: "https://hefni101.netlify.app",
+    routes() {
+      return getRoutes();
+    }
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {}
 };

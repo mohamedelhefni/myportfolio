@@ -1,5 +1,5 @@
 <template>
-  <div class="project hover:shadow-lg bg-white text-gray-600 shadow rounded">
+  <div class="project dark:bg-gray-700  hover:shadow-lg bg-white text-gray-600 dark:text-gray-300 shadow rounded">
     <NuxtLink :to="{ name: 'works-slug', params: { slug: project.slug } }">
       <img
         :src="project.image"
@@ -7,10 +7,10 @@
         alt=""
       />
       <div class="content p-4">
-        <h3 class="font-bold text-xl text-gray-700">
+        <h3 class="font-bold text-xl text-gray-700 dark:text-white">
           {{ project.title }}
         </h3>
-        <p class="text-sm text-gray-500">{{ project.description }}</p>
+        <p class="text-sm text-gray-500 dark:text-gray-300">{{ project.description }}</p>
       </div>
       <div class="categories flex flex-wrap justify-start items-center py-2">
         <div

@@ -1,5 +1,6 @@
-<template>
-  <div class="container mx-auto p-5 lg:w-3/4">
+<template >
+  <div class="dark:bg-gray-800 dark:text-white">
+    <div class="container  mx-auto p-5 lg:w-3/4">
     <h2 class="text-3xl font-semibold">Projects 🌟</h2>
     <div class="projects mt-4
         grid grid-cols-1
@@ -12,6 +13,8 @@
 
       ">
       <ProjectCard v-for="project in projects" :key="project.slug" :project="project" />
+    </div>
+
     </div>
   </div>
 </template>

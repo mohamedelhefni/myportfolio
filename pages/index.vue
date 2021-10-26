@@ -1,7 +1,7 @@
 <template>
   <div class="container p-5 my-4 mx-auto lg:w-3/4">
     <h1 class="text-5xl font-bold mt-5">Welcome 👋</h1>
-    <p class="description text-2xl my-3 p-4 mt-5 text-gray-600">
+    <p class="description text-2xl my-3 p-4 mt-5 text-gray-600 dark:text-gray-300">
       My name is Mohamed Elhefni
       <small class="text-gray-500">(@hefni101)</small><br />
       I am a software engineer 👩‍💻, code-addicted person ❤️, and a problem solver
@@ -45,7 +45,7 @@
 export default {
   head: {
     bodyAttrs: {
-      class: "bg-gray-100",
+      class: "bg-gray-100 dark:bg-gray-800 dark:text-white",
     },
   },
   data() {

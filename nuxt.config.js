@@ -11,7 +11,8 @@ export default {
   head: {
     title: "Mohamed Elhefni",
     htmlAttrs: {
-      lang: "en"
+      lang: "en",
+      class: ""
     },
     meta: [
       { charset: "utf-8" },
@@ -43,7 +44,8 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
-    "@nuxtjs/tailwindcss"
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/color-mode"
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

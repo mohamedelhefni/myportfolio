@@ -9,7 +9,7 @@
       <br />
       I love to build software that makes my life easier and automates the
       boring stuff with programming. <br />
-      I'm Interested in competitive programming and Back-End Engineering.
+      I'm Interested in Problem Solving and Back-End Engineering.
     </p>
     <h3 class="text-3xl my-3 font-bold">Skills</h3>
     <div class="skills flex items-center lg:w-3/4 p-2 flex-wrap">

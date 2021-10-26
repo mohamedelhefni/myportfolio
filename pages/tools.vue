@@ -4,7 +4,7 @@
     <h1 class="text-5xl mb-7 font-bold">Tools 🛠️</h1>
     <div class="my-5">
       <h2 class="text-2xl font-bold">OS</h2>
-      <p class="text-gray-600 dark:text-gray-300 text-xl">Windows sucks so I am linux user I tried many linux distors most of them are debain based like Pop Os, ubuntu, linux mint, ...
+      <p class="text-gray-600 dark:text-gray-300 text-xl">I am a linux user I tried many linux distors most of them are debain based like Pop Os, ubuntu, linux mint, ...
         <br>
         My current distro is <a href="https://zorin.com/os/" target="_blank">
           <mark> Zorin OS</mark>
@@ -23,7 +23,7 @@
     <div class="mt-6">
       <h2 class="text-2xl font-bold">Productivity 💡</h2>
       <ul class="text-gray-600 dark:text-gray-300 text-xl">
-        <li class="my-2 pl-2"><mark><a href="https://notion.so" class="font-bold" target="_blank">Notion</a></mark> I heavily depend on notion to manage my life , taking notes and keep track of my progress <br> I build an system with notion databases and rolleups to manage goals and tasks <br> on my learning journey on <a href="https://github.com/ossu/computer-science" target="_blank"><mark>OSSU</mark></a> I summarize every thing on <a href="https://hefni.notion.site/hefni/OSSU-a964b48e349e4e55a811d5de578f8f85" target="_blank"><mark>notion</mark></a> </li>
+        <li class="my-2 pl-2"><mark><a href="https://notion.so" class="font-bold" target="_blank">Notion</a></mark> I heavily depend on notion to manage my life , taking notes and keep track of my progress <br> I build a system with notion databases and rolleups to manage goals and tasks <br> on my learning journey on <a href="https://github.com/ossu/computer-science" target="_blank"><mark>OSSU</mark></a> I summarize every thing on <a href="https://hefni.notion.site/hefni/OSSU-a964b48e349e4e55a811d5de578f8f85" target="_blank"><mark>notion</mark></a> </li>
         <li class="my-2 pl-2"><mark><a href="https://mochi.cards/" class="font-bold" target="_blank">Mochi ☘️</a></mark>  with mochi Spaced repetition made easy </li>
       </ul>
     </div>

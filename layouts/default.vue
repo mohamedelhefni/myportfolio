@@ -24,6 +24,11 @@ export default {
       class: this.$colorMode.preference == "dark" ? "dark-mode" : "light-mode"
     }
     }
+  },
+  mounted() {
+    if(this.$colorMode.preference == "system") {
+      this.$colorMode.preference = "dark"
+    }
   }
 };
 </script>

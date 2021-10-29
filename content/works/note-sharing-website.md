@@ -3,7 +3,7 @@ title: 'Note Sharing Website'
 description: 'A note sharing website that allows you to write your notes on markdown and highlight your code
 
 '
-categories: [javascript,MongoDB,Node.js]
+categories: [javascript,MongoDB,NodeJs]
 image: https://mohamedelhefni.000webhostapp.com/wp-content/uploads/2021/10/image.png
 date: 2021-10-16
 

@@ -86,6 +86,16 @@ a.nuxt-link-active {
   font-weight: bold;
 }
 
+.rtl 
+{
+  direction: rtl;
+}
+
+.font-cairo 
+{
+  font-family: 'Cairo', sans-serif !important;
+}
+
 a.nuxt-link-exact-active {
   color: rgba(17, 24, 39, var(--tw-text-opacity));
 }

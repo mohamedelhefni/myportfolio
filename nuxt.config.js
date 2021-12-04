@@ -10,6 +10,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "Mohamed Elhefni",
+
     htmlAttrs: {
       lang: "en",
       class: ""
@@ -17,7 +18,7 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" },
+      { hid: "description", name: "description", content: "My name is Mohamed Elhefni (@hefni101) I am a software engineer 💻, code-addicted person ❤️, and a problem solver 💡.I love to build software that makes my life easier and automates the boring stuff with programming. I'm Interested in Problem Solving and Back-End Engineering." },
       { name: "format-detection", content: "telephone=no" }
     ],
     link: [
@@ -26,6 +27,10 @@ export default {
         rel: "stylesheet",
         href:
           "https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap"
+      },
+      {
+        rel: "stylesheet",
+        href:"https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap"
       }
     ]
   },

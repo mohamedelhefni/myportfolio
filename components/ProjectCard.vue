@@ -6,15 +6,15 @@
         class="w-full rounded max-h-52 h-48 object-cover"
         alt=""
       />
-      <div class="content p-4">
+      <div class="p-4">
         <h3 class="font-bold text-xl text-gray-700 dark:text-white">
           {{ project.title }}
         </h3>
         <p class="text-sm text-gray-500 dark:text-gray-300">{{ project.description }}</p>
       </div>
-      <div class="categories flex flex-wrap justify-start items-center py-2">
+      <div class="categories flex flex-wrap justify-start items-center py-2 mx-2">
         <div
-          class="category shadow bg-gray-200 roundedl px-3 py-1 text-sm font-semibold text-gray-700 mx-1 my-1"
+          class="category shadow bg-gray-200 rounded px-3 py-1 text-sm font-semibold text-gray-700 mx-1 my-1"
           v-for="category in project.categories"
           :key="category"
           v-bind="{ class: category }"

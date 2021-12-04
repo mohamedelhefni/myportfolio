@@ -1,5 +1,5 @@
 <template>
-  <div class="nav p-5 bg-white dark:bg-gray-700 dark:text-white flex flex-wrap items-center justify-between">
+  <div class="nav p-5 bg-white dark:bg-gray-700 dark:text-white flex flex-wrap items-center justify-between absolute w-full top-0">
     <div class="routes">
       <ul class="flex flex-wrap items-center">
         <li class="p-3 mx-2 font-bold text-xl hidden  lg:block md:block">
@@ -17,6 +17,13 @@
             to="/projects"
             class="font-bold text-large text-gray-500 hover:text-gray-700 dark:text-gray-300 dark:hover:text-gray-200"
             >Projects</NuxtLink
+          >
+        </li>
+        <li class="p-3 mx-2">
+          <NuxtLink
+            to="/blog"
+            class="font-bold text-large text-gray-500 hover:text-gray-700 dark:text-gray-300 dark:hover:text-gray-200"
+            >Blog</NuxtLink
           >
         </li>
         <li class="p-3 mx-2">
@@ -55,13 +62,7 @@
             icon="linkedin"
           />
         </a>
-        <a href="https://twitter.com/hefni101" target="_blank" class="p-2">
-          <SvgIcon
-            cls="fill-current text-sm text-gray-500  hover:text-gray-700 cursor-pointer dark:text-white"
-            icon="twitter"
-          />
-        </a>
-        <a
+       <a
           href="mailto:mohamed.elhefni@outlook.com"
           target="_blank"
           class="p-2"

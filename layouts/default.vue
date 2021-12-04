@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div >
     <Nav />
-    <main>
+    <main class="mt-44 md:mt-32 lg:mt-32 ">
       <Nuxt />
     </main>
   </div>
@@ -18,7 +18,7 @@ export default {
   head() {
     return {
     bodyAttrs: {
-      class: "bg-gray-100",
+      class: "bg-gray-100 dark:bg-gray-800 dark:text-white",
     },
     htmlAttrs: {
       class: this.$colorMode.preference == "dark" ? "dark-mode" : "light-mode"

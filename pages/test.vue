@@ -11,7 +11,7 @@
         mx-auto
 
       ">
-      <ProjectCard v-for="project in projects" :key="project.id" :project="project" />
+      <ProjectCard v-for="project in projects" :key="project.id" :project="project"/>
     </div>
   </div>
 </template>

@@ -74,7 +74,7 @@ export default {
     @apply text-blue-500 font-semibold
   }
   .content hr {
-    @apply w-3/6 mx-auto my-3
+    @apply w-3/6 mx-auto my-5
   }
   .content pre {
    @apply rounded;
@@ -83,6 +83,9 @@ export default {
 
   .content img {
     @apply mx-auto my-5 max-h-64 
+  }
+  .content ul ul {
+    @apply ml-14
   }
   
 </style>

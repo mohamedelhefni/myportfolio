@@ -27,7 +27,7 @@
       <video v-if="work.video" controls class="my-3">
         <source :src="work.video" />
       </video>
-      <nuxt-content :document="work" />
+      <nuxt-content class="prose-lg dark:prose-invert" :document="work" />
     </article>
   </div>
 

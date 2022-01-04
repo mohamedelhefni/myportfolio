@@ -8,9 +8,9 @@
 </template>
 
 <style>
-.dark-mode {
-  @apply dark;
-}
+/*.dark-mode {*/
+  /*@apply dark;*/
+/*}*/
 </style>
 
 <script>
@@ -21,7 +21,7 @@ export default {
       class: "bg-gray-100 dark:bg-gray-800 dark:text-white",
     },
     htmlAttrs: {
-      class: this.$colorMode.preference == "dark" ? "dark-mode" : "light-mode"
+      class: this.$colorMode.preference == "dark" ? "dark" : "light"
     }
     }
   },

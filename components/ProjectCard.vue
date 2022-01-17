@@ -1,11 +1,7 @@
 <template>
   <div class="project dark:bg-gray-700  hover:shadow-lg bg-white text-gray-600 dark:text-gray-300 shadow rounded">
     <NuxtLink :to="{ name: 'works-slug', params: { slug: project.slug } }">
- <!--     <img
-        :src="project.image"
-        class="w-full rounded max-h-52 h-48 object-cover"
-        alt=""
-      /> -->
+
       <div class="p-4">
         <h3 class="font-bold text-xl text-gray-700 dark:text-white">
           {{ project.title }}

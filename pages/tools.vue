@@ -6,8 +6,8 @@
       <h2 class="text-2xl font-bold">OS</h2>
       <p class="text-gray-600 dark:text-gray-300 text-xl">I am a linux user I tried many linux distors most of them are debain based like Pop Os, ubuntu, linux mint, ...
         <br>
-        My current distro is <a href="https://zorin.com/os/" target="_blank">
-          <mark> Zorin OS</mark>
+        My current distro is <a href="https://pop.system76.com/" target="_blank">
+          <mark>Pop OS</mark>
         </a> what I love about zorin os is zorin connect which make my life easier
 
       </p>

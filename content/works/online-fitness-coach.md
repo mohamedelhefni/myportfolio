@@ -2,7 +2,7 @@
 title: 'online fitness Coach'
 description: 'simple website for fitness trainer as a portfolio for him 
 with simple dashboard using custom code in php and mysql'
-categories: [bootstrap,global,javascript,mysql,php]
+categories: [javascript,mysql,php]
 image: https://mohamedelhefni.000webhostapp.com/wp-content/uploads/2020/08/frame0-1.jpg
 date: 2020-08-05
 video: https://mohamedelhefni.000webhostapp.com/wp-content/uploads/2020/08/fitness-php.mp4

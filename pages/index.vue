@@ -3,40 +3,24 @@
     <h1 class="text-5xl font-bold mt-5">Welcome 👋</h1>
     <p class="description text-2xl my-3 p-4 mt-5 text-gray-600 dark:text-gray-300">
       My name is Mohamed Elhefni
-      <small class="text-gray-500">(@hefni101)</small><br />
-      I am a software engineer 👩‍💻, code-addicted person ❤️, and a problem solver
+      <small class="text-gray-500">(@hefni101)</small>
+      <br />I am a software engineer 👩‍💻, code-addicted person ❤️, and a problem solver
       💡.
-      <br />
-      I love to build software that makes my life easier and automates the
-      boring stuff with programming. <br />
-      I'm Interested in Problem Solving and Back-End Engineering.
+      <br />I love to build software that makes my life easier and automates the
+      boring stuff with programming.
+      <br />I'm Interested in Problem Solving and Back-End Engineering.
     </p>
+    <p
+      class="text-2xl my-1 p-4 text-gray-600 dark:text-gray-300"
+    >I'm a Linux user. I use Manjaro i3 as a my main distro. I am a vim fanatic which will be my editor to infinity and beyond  🔥 and I am a big fan of Obsidian</p>
     <h3 class="text-3xl my-3 font-bold">Skills</h3>
     <div class="skills flex items-center lg:w-3/4 p-2 flex-wrap">
       <div
-        class="
-          category
-          shadow
-          transform
-          transition
-          hover:shadow-lg
-          hover:scale-110
-          bg-gray-200
-          rounded-sm
-          px-3
-          py-1
-          text-sm
-          font-semibold
-          text-gray-700
-          mx-1
-          my-1
-        "
+        class="category shadow transform transition hover:shadow-lg hover:scale-110 bg-gray-200 rounded-sm px-3 py-1 text-sm font-semibold text-gray-700 mx-1 my-1"
         v-for="skill in skills"
         :key="skill"
         v-bind="{ class: skill }"
-      >
-        {{ skill }}
-      </div>
+      >{{ skill }}</div>
     </div>
   </div>
 </template>
@@ -57,6 +41,7 @@ export default {
         "javascript",
         "vue",
         "react",
+        "GO",
         "php",
         "cpp",
         "c",
@@ -67,7 +52,8 @@ export default {
         "flask",
         "Bash",
         "SQL",
-        "NodeJs"
+        "NodeJs",
+        "Docker",
       ],
     };
   },
@@ -86,14 +72,12 @@ a.nuxt-link-active {
   font-weight: bold;
 }
 
-.rtl 
-{
+.rtl {
   direction: rtl;
 }
 
-.font-cairo 
-{
-  font-family: 'Cairo', sans-serif !important;
+.font-cairo {
+  font-family: "Cairo", sans-serif !important;
 }
 
 a.nuxt-link-exact-active {
@@ -143,7 +127,8 @@ mark {
 .python {
   background: #ffda5d;
 }
-.c, .linux {
+.c,
+.linux {
   background: #555555;
   color: #fff;
 }
@@ -183,6 +168,13 @@ mark {
   background: #6b9f5c;
   color: #fff;
 }
+.GO {
+  background: #29beb0;
+  color: #fff;
+}
 
-
+.Docker {
+  background: #228ee1;
+  color: #fff;
+}
 </style>

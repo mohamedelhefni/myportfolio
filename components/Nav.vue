@@ -26,13 +26,6 @@
             >Blog</NuxtLink
           >
         </li>
-        <li class="p-3 mx-2">
-          <NuxtLink
-            to="/tools"
-            class="font-bold text-large text-gray-500 hover:text-gray-700 dark:text-gray-300 dark:hover:text-gray-200"
-            >Tools</NuxtLink
-          >
-        </li>
       </ul>
     </div>
     <div class="links">

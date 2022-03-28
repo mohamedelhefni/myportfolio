@@ -47,3 +47,9 @@ export default {
 
 };
 </script>
+
+<style>
+a[target=_blank]{
+  @apply text-blue-500
+}
+</style>

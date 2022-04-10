@@ -64,6 +64,11 @@ BenchmarkSearch-12    	28626381	      102.2 ns/op	     16 B/op	      1 allocs/op
 ```
 
 ### Github Repo
-
 <https://github.com/mohamedelhefni/ar-trie>
+
+### WebApp Demo 
+
+twitter Database leak search using ar trie package 
+<https://triesearch.herokuapp.com/>
+
 

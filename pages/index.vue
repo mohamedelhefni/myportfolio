@@ -12,7 +12,7 @@
     </p>
     <p
       class="text-2xl my-1 p-4 text-gray-600 dark:text-gray-300"
-    >I'm a Linux user. I use Manjaro i3 as a my main distro. I am a vim fanatic which will be my editor to infinity and beyond  🔥 and I am a big fan of Obsidian</p>
+    >I'm a Linux user. I use Manjaro Plasma as my main distro. I am a vim fanatic which will be my editor to infinity and beyond  🔥 and I am a big fan of Obsidian</p>
     <h3 class="text-3xl my-3 font-bold">Skills</h3>
     <div class="skills flex items-center lg:w-3/4 p-2 flex-wrap">
       <div

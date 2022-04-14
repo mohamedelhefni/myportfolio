@@ -1,7 +1,7 @@
 ---
 title: "PHP Hashtables collisions"
 description: "About PHP arrays (hash tables) collisions "
-tags: [php, HashTables]
+tags: [PHP, HashTables]
 date: 2021-12-09
 ---
 
@@ -12,6 +12,7 @@ in PHP arrays if you tried to insert keys that is power of 2 like
  they all will be mapped to the same key and thus the hash will have a linked list. The above example creates exactly this. thus creating hash collisions. Inserting an element into such a key becomes more expensive O(n) and therefore inserting n keys jumps from O(n) to O(n^2).
 as an example 
 ```php
+
 <?php
 
 $time_start = microtime(true); 

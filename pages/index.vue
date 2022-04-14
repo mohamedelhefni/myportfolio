@@ -42,7 +42,7 @@ export default {
         "vue",
         "react",
         "GO",
-        "php",
+        "PHP",
         "cpp",
         "c",
         "linux",
@@ -105,7 +105,7 @@ mark {
 .vuetify {
   background: #aeddff;
 }
-.php {
+.PHP {
   background: #6675e0;
   color: white;
 }

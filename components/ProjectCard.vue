@@ -47,7 +47,7 @@ export default {
 .vuetify {
   background: #aeddff;
 }
-.php {
+.PHP {
   background: #6675e0;
   color: white;
 }

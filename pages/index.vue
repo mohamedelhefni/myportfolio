@@ -177,4 +177,9 @@ mark {
   background: #228ee1;
   color: #fff;
 }
+
+.obsidian {
+  background: #9522e1;
+  color: #fff;
+}
 </style>

@@ -12,7 +12,7 @@
     </p>
     <p
       class="text-2xl my-1 p-4 text-gray-600 dark:text-gray-300"
-    >I'm a Linux user. I use Manjaro Plasma as my main distro. I am a vim fanatic which will be my editor to infinity and beyond  🔥 and I am a big fan of Obsidian</p>
+    >I'm a Linux user I am a vim fanatic which will be my editor to infinity and beyond  🔥 </p>
     <h3 class="text-3xl my-3 font-bold">Skills</h3>
     <div class="skills flex items-center lg:w-3/4 p-2 flex-wrap">
       <div
@@ -29,7 +29,7 @@
 export default {
   head: {
     bodyAttrs: {
-      class: "bg-gray-100 dark:bg-gray-800 dark:text-white",
+      class: "bg-gray-100 dark:bg-slate-800 dark:text-white",
     },
   },
   data() {
@@ -38,6 +38,7 @@ export default {
         "html",
         "css",
         "tailwindcss",
+        "Typescript",
         "javascript",
         "vue",
         "react",
@@ -54,6 +55,7 @@ export default {
         "SQL",
         "NodeJs",
         "Docker",
+        "Django",
       ],
     };
   },
@@ -175,6 +177,16 @@ mark {
 
 .Docker {
   background: #228ee1;
+  color: #fff;
+}
+
+.Typescript {
+  background: #0076c6;
+  color: #fff;
+}
+
+.Django {
+  background: #103e2e;
   color: #fff;
 }
 </style>

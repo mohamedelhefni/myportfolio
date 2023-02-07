@@ -18,7 +18,7 @@ export default {
   head() {
     return {
     bodyAttrs: {
-      class: "bg-gray-100 dark:bg-gray-800 dark:text-white",
+      class: "bg-gray-100 dark:bg-slate-800 dark:text-white",
     },
     htmlAttrs: {
       class: this.$colorMode.preference == "dark" ? "dark" : "light"

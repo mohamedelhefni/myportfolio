@@ -1,5 +1,5 @@
 <template>
-  <div class="project dark:bg-gray-700  hover:shadow-lg bg-white text-gray-600 dark:text-gray-300 shadow rounded">
+ <div class="project dark:bg-slate-700 transform transition  hover:scale-95 bg-white text-gray-600 dark:text-gray-300 shadow rounded">
     <NuxtLink :to="{ name: 'works-slug', params: { slug: project.slug } }" class=" flex items-left justify-between flex-col h-full" >
 
       <div class="p-4">
@@ -69,4 +69,6 @@ export default {
 .python {
   background: #ffda5d;
 }
+
+
 </style>

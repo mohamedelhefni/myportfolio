@@ -11,7 +11,7 @@
         {{post.date}}
       </div>
      </div>
-     <div class="content dark:bg-gray-700  hover:shadow-lg bg-white text-gray-600 dark:text-gray-300 shadow rounded my-3 w-full p-5 mt-10">
+     <div class="content dark:bg-slate-700 hover:shadow-lg bg-white text-gray-600 dark:text-gray-300 shadow rounded my-3 w-full p-5 mt-10">
       <nuxt-content class="prose-lg dark:prose-invert" :document="post" />
      </div>
    </div>

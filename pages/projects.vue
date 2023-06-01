@@ -1,5 +1,5 @@
 <template >
-  <div class="dark:bg-gray-800 dark:text-white">
+  <div class="dark:bg-slate-800 dark:text-white">
     <div class="container  mx-auto p-5 lg:w-3/4">
     <h2 class="text-6xl font-bold mb-3 text-center">Projects 🌟</h2>
     <div class="projects mt-4

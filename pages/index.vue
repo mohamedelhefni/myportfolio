@@ -10,17 +10,13 @@
       boring stuff with programming.
       <br />I'm Interested in Problem Solving and Back-End Engineering.
     </p>
-    <p
-      class="text-2xl my-1 p-4 text-gray-600 dark:text-gray-300"
-    >I'm a Linux user. I use Manjaro Plasma as my main distro. I am a vim fanatic which will be my editor to infinity and beyond  🔥 and I am a big fan of Obsidian</p>
+    <p class="text-2xl my-1 p-4 text-gray-600 dark:text-gray-300">I'm a Linux user I am a vim fanatic which will be my
+      editor to infinity and beyond 🔥 </p>
     <h3 class="text-3xl my-3 font-bold">Skills</h3>
     <div class="skills flex items-center lg:w-3/4 p-2 flex-wrap">
       <div
         class="category shadow transform transition hover:shadow-lg hover:scale-110 bg-gray-200 rounded-sm px-3 py-1 text-sm font-semibold text-gray-700 mx-1 my-1"
-        v-for="skill in skills"
-        :key="skill"
-        v-bind="{ class: skill }"
-      >{{ skill }}</div>
+        v-for="skill in skills" :key="skill" v-bind="{ class: skill }">{{ skill }}</div>
     </div>
   </div>
 </template>
@@ -29,7 +25,7 @@
 export default {
   head: {
     bodyAttrs: {
-      class: "bg-gray-100 dark:bg-gray-800 dark:text-white",
+      class: "bg-gray-100 dark:bg-slate-800 dark:text-white",
     },
   },
   data() {
@@ -38,6 +34,7 @@ export default {
         "html",
         "css",
         "tailwindcss",
+        "Typescript",
         "javascript",
         "vue",
         "react",
@@ -54,6 +51,7 @@ export default {
         "SQL",
         "NodeJs",
         "Docker",
+        "Django",
       ],
     };
   },
@@ -68,6 +66,7 @@ select,
 textarea {
   font-family: "Nunito", sans-serif;
 }
+
 a.nuxt-link-active {
   font-weight: bold;
 }
@@ -83,6 +82,7 @@ a.nuxt-link-active {
 a.nuxt-link-exact-active {
   color: rgba(17, 24, 39, var(--tw-text-opacity));
 }
+
 mark {
   background-color: rgb(235, 255, 235);
 }
@@ -91,83 +91,104 @@ mark {
   background: #ee6e73;
   color: white;
 }
+
 .gulp {
   background: #d34446;
   color: white;
 }
+
 .xd {
   background: #450135;
   color: white;
 }
+
 .firebase {
   background: #ffca2b;
 }
+
 .vuetify {
   background: #aeddff;
 }
+
 .PHP {
   background: #6675e0;
   color: white;
 }
+
 .tailwindcss {
   background: #06b6d4;
   color: white;
 }
+
 .javascript {
   background: #f0db4f;
 }
+
 .vue {
   background: #41b883;
   color: white;
 }
+
 .react {
   background: #222;
   color: #00d8ff;
 }
+
 .python {
   background: #ffda5d;
 }
+
 .c,
 .linux {
   background: #555555;
   color: #fff;
 }
+
 .cpp {
   background: #f34b7d;
   color: #fff;
 }
+
 .css {
   background: #f34b7d;
   color: #fff;
 }
+
 .html {
   background: #e34c26;
   color: #fff;
 }
+
 .SQL {
   background: #e38c00;
   color: #fff;
 }
+
 .git {
   background: #f34f29;
   color: #fff;
 }
+
 .Bash {
   background: #3b4346;
   color: #fff;
 }
+
 .vim {
   background: #007800;
   color: #fff;
 }
+
 .flask {
   background: #222;
   color: #fff;
 }
+
 .NodeJs {
   background: #6b9f5c;
   color: #fff;
 }
+
 .GO {
   background: #29beb0;
   color: #fff;
@@ -180,6 +201,14 @@ mark {
 
 .obsidian {
   background: #9522e1;
+}
+
+.Typescript {
+  background: #0076c6;
   color: #fff;
 }
-</style>
+
+.Django {
+  background: #103e2e;
+  color: #fff;
+}</style>

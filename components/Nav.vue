@@ -1,5 +1,5 @@
 <template>
-  <div class="nav p-5 bg-white dark:bg-gray-700 dark:text-white flex flex-wrap items-center justify-between absolute w-full top-0">
+  <div class="nav p-5 bg-white dark:bg-slate-700 dark:text-white flex flex-wrap items-center justify-between absolute w-full top-0">
     <div class="routes">
       <ul class="flex flex-wrap items-center">
         <li class="p-3 mx-2 font-bold text-xl hidden  lg:block md:block">

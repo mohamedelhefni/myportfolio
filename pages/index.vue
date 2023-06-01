@@ -200,6 +200,7 @@ mark {
 }
 
 .obsidian {
+  color: #fff;
   background: #9522e1;
 }
 
@@ -211,4 +212,10 @@ mark {
 .Django {
   background: #103e2e;
   color: #fff;
-}</style>
+}
+
+.Laravel {
+  background: #fb503b;
+  color: #fff;
+}
+</style>

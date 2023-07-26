@@ -75,8 +75,8 @@ a.nuxt-link-active {
   direction: rtl;
 }
 
-.font-cairo {
-  font-family: "Cairo", sans-serif !important;
+.font-custom {
+  font-family: 'IBM Plex Sans Arabic', sans-serif !important;
 }
 
 a.nuxt-link-exact-active {
@@ -217,5 +217,11 @@ mark {
 .Laravel {
   background: #fb503b;
   color: #fff;
+}
+
+
+article ul,
+article ol {
+  list-style: revert;
 }
 </style>

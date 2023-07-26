@@ -1,5 +1,5 @@
 <template>
-  <div class="post dark:bg-slate-700 transform transition  hover:scale-95 bg-white text-gray-600 dark:text-gray-300 shadow rounded my-3 w-full" :class="{rtl: post.rtl, 'font-cairo': post.rtl}">
+  <div class="post dark:bg-slate-700 transform transition  hover:shadow-xl bg-white text-gray-600 dark:text-gray-300 shadow rounded my-3 w-full" :class="{rtl: post.rtl, 'font-custom': post.rtl}">
     <NuxtLink :to="{ name: 'posts-slug', params: { slug: post.slug } }">
       <img
         v-if="post.image"

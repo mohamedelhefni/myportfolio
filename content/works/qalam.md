@@ -1,8 +1,8 @@
 ---
-title: 'Qalam'
+title: 'Qalam 📝'
 description: 'an arabic open source note taking app '
 categories: [vue, javascript]
-date: 2021-10-16
+date: 2023-6-1
 
 ---
 an arabic open source note taking app 

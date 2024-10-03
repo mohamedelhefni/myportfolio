@@ -2,7 +2,7 @@
 title: 'Salatak  🕋'
 description: 'web application helps you generate an ICS (iCalendar) file containing accurate prayer times for your location'
 categories: [vue, javascript, tailwindcss]
-date: 2023-8-1
+date: 2023-08-01
 
 ---
 

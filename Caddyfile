@@ -1,0 +1,6 @@
+http://localhost:2019 {
+  root * ./dist
+  encode gzip
+  file_server
+}
+

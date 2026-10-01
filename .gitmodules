@@ -1,0 +1,3 @@
+[submodule "themes/zahi"]
+	path = themes/zahi
+	url = https://github.com/mohamedelhefni/zahi.git

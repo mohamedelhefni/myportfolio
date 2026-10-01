@@ -1,0 +1,55 @@
+
+# hugo.toml
+baseURL = "https://hefni101.dev/"
+title = "حفني"
+enableRobotsTXT = true
+theme = "zahi"
+languageCode = "ar"
+defaultContentLanguage = "ar"
+
+[taxonomies]
+tag = "tags"
+series = "series"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[menu]
+[[menu.main]]
+identifier = "الرئيسية"
+name = "الرئيسية"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "المدونه"
+name = "المدونه"
+url = "/posts"
+weight = 20
+
+[[menu.main]]
+identifier = "المشاريع"
+name = "المشاريع"
+url = "/projects"
+weight = 30
+
+[[menu.main]]
+identifier = "الخريطة"
+name = "الخريطة"
+url = "/graph"
+weight = 40
+
+[params]
+github = "https://www.github.com/mohamedelhefni"
+author = "محمد الحفني"
+description = "مدونة محمد الحفني - برمجة، لينكس، أدوات ومشاريع جانبية وتجارب شخصية"
+keywords = ["برمجة", "لينكس", "go", "vim", "مشاريع جانبية"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params.analytics.siraaj]
+apiUrl = "https://siraaj.live"
+projectId = "hefni101"
+autoTrack = true
+trackingToken = "siraaj_trk_ma-LHn6uv1j2SStQufriswTE23jhEtNZjx57sWEXv7g"  # from your Siraaj project settings

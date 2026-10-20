@@ -49,7 +49,7 @@ keywords = ["برمجة", "لينكس", "go", "vim", "مشاريع جانبية"
 unsafe = true
 
 [params.analytics.siraaj]
-apiUrl = "https://siraaj.live"
+apiUrl = "https://analytics.hefni101.dev"
 projectId = "hefni101"
 autoTrack = true
 trackingToken = "siraaj_trk_ma-LHn6uv1j2SStQufriswTE23jhEtNZjx57sWEXv7g"  # from your Siraaj project settings

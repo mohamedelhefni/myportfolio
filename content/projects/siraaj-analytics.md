@@ -5,7 +5,7 @@ draft: false
 description: "منصة تحليلات ويب مفتوحة المصدر تُستضاف ذاتياً، سريعة وتحترم الخصوصية، مبنية بـ Go و DuckDB وواجهة Svelte"
 thumbnail: ""
 repoURL: "https://github.com/mohamedelhefni/Siraaj-analytics"
-demoURL: "https://siraaj.live"
+demoURL: "https://analytics.hefni101.dev"
 type: "open-source"
 technologies: ["Go", "DuckDB", "Svelte", "Docker"]
 status: "completed"
